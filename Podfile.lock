@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.7.2)
+  - BouncyLayout (2.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - BouncyLayout
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  BouncyLayout: a7955879861375cc4e88bb64d42bcf622cd2694c
+
+PODFILE CHECKSUM: 31b6c9f547e0b38f7751d8f88445b35777ac8dda
+
+COCOAPODS: 1.4.0
