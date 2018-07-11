@@ -16,10 +16,12 @@ class AppCategory: NSObject {
     static func fetchFeaturedApps() {
         let urlString = "https://api.letsbuildthatapp.com/appstore/featured"
         Alamofire.request(urlString).responseJSON { response in
-            print(response.request!)
+            if let json = response.result.value {
+                print ("\(json)")
+            }
         }
     }
-    
+
     static func sampleAppCategories() -> [AppCategory] {
         let bestNewAppsCategory = AppCategory()
         
